@@ -5,3 +5,6 @@
 
 ### Even numbers
 [![asciicast](https://asciinema.org/a/i3k0eWXWDXLvENXUaPbYPPZ4y.svg)](https://asciinema.org/a/i3k0eWXWDXLvENXUaPbYPPZ4y)
+
+### Calculation
+[![asciicast](https://asciinema.org/a/CIZY6tXlsgTHGrMLivBiUncx5.svg)](https://asciinema.org/a/CIZY6tXlsgTHGrMLivBiUncx5)
