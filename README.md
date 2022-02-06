@@ -14,3 +14,6 @@
 
 ### Arithmetic progression
 [![asciicast](https://asciinema.org/a/Qqv6dkjUyoU0Y4y1WSeZH4Yn1.svg)](https://asciinema.org/a/Qqv6dkjUyoU0Y4y1WSeZH4Yn1)
+
+### Prime numbers
+[![asciicast](https://asciinema.org/a/07NoiOT1rsbkXf0eFTi2GdSiQ.svg)](https://asciinema.org/a/07NoiOT1rsbkXf0eFTi2GdSiQ)
