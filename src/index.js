@@ -23,6 +23,7 @@ export default function play(description, getNextRound) {
   console.log(`Congratulations, ${userName}!`);
 }
 
-export function getRandom() {
-  return Math.round(Math.random() * 100);
+export function getRandom(min = 0, max = 100) {
+  const rand = min + Math.random() * (max + 1 - min);
+  return Math.floor(rand);
 }
