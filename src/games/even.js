@@ -1,14 +1,15 @@
-import play, { getRandom } from '../index.js';
+import play from '../index.js';
+import getRandom from '../utils/getRandom.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
-const answers = ['yes', 'no'];
 
-function getNextRound() {
-  const num = getRandom();
-  const correctAnswer = answers[num % 2];
-  return [num, correctAnswer];
+function getRound() {
+  const answers = ['yes', 'no'];
+  const question = getRandom();
+  const correctAnswer = answers[question % 2];
+  return [question, correctAnswer];
 }
 
 export default function playIsEven() {
-  play(description, getNextRound);
+  play(description, getRound);
 }

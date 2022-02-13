@@ -1,4 +1,5 @@
-import play, { getRandom } from '../index.js';
+import play from '../index.js';
+import getRandom from '../utils/getRandom.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
@@ -6,7 +7,7 @@ function getGCD(a, b) {
   return !b ? a : getGCD(b, a % b);
 }
 
-function getNextRound() {
+function getRound() {
   const a = getRandom();
   const b = getRandom();
   const question = `${a} ${b}`;
@@ -15,5 +16,5 @@ function getNextRound() {
 }
 
 export default function playGCD() {
-  play(description, getNextRound);
+  play(description, getRound);
 }
